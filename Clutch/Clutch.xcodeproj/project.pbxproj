@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D07F9192E6361CC00008E88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D07F9172E6361CC00008E88 /* Localizable.strings */; };
 		7DEAB7642E61D76500F771ED /* DependencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEAB7632E61D76500F771ED /* DependencyKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D07F9182E6361CC00008E88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7D07F91A2E6361D300008E88 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7DEAB7542E61D60400F771ED /* Clutch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clutch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +40,7 @@
 		7DEAB74B2E61D60400F771ED = {
 			isa = PBXGroup;
 			children = (
+				7D07F9172E6361CC00008E88 /* Localizable.strings */,
 				7DEAB7562E61D60400F771ED /* Clutch */,
 				7DEAB7552E61D60400F771ED /* Products */,
 			);
@@ -97,6 +101,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 7DEAB74B2E61D60400F771ED;
 			minimizedProjectReferenceProxies = 1;
@@ -118,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D07F9192E6361CC00008E88 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +138,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D07F9172E6361CC00008E88 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D07F9182E6361CC00008E88 /* en */,
+				7D07F91A2E6361D300008E88 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7DEAB75D2E61D60600F771ED /* Debug */ = {

@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Clutch
+
+  Created by Engin Gülek on 30.08.2025.
+  
+*/
+"onboardingOneTitle" = "Welcome to Clutch";
+"onboardingOneDesc" = "Follow live scores in real time";
+
+
+"onboardingTwoTitle" = "Personalize Your Game";
+"onboardingTwoDesc" = "Pick your favorite teams and never miss a moment.";
+
+"onboardingThreeTitle" = "All Leagues, One App";
+"onboardingThreeDesc" = "Explore every match in one place";
