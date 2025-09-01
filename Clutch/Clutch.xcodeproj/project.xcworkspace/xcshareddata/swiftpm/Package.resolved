@@ -1,6 +1,42 @@
 {
-  "originHash" : "af8ba5ed0abbcd675a67fe0489f6da12f3b335600bd975ece42f1dd824c45cb8",
+  "originHash" : "5dfea1ead6438e67ce645aefd0ab5acab468f26822cab6380e2b6a6047b9af36",
   "pins" : [
+    {
+      "identity" : "clutchcorekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchCoreKit",
+      "state" : {
+        "revision" : "afdf72fa6458b0a1d9cae443fcdc79d445b5cc1b",
+        "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "clutchmodularprotocols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchModularProtocols",
+      "state" : {
+        "revision" : "c79a6dfa3b61d1db4a27c2e9c66cef15160e1c03",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "clutchnavigationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchNavigationKit",
+      "state" : {
+        "revision" : "53c84513007adc967ce00969095dd2de96d8a8b3",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "clutchonboardingmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchOnboardingModule",
+      "state" : {
+        "branch" : "master",
+        "revision" : "abc138f9a60199b39de3b3f9897020f0480ef95d"
+      }
+    },
     {
       "identity" : "hpdependencykit",
       "kind" : "remoteSourceControl",
