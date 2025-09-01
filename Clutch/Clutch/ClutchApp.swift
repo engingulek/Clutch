@@ -7,16 +7,29 @@
 
 import SwiftUI
 import DependencyKit
+import ClutchNavigationKit
+import ClutchModularProtocols
+import ClutchOnboardingModule
 
 @main
 struct ClutchApp: App {
+    @StateObject private var navigation = Navigation()
     init() {
         let container = DependencyRegister.shared.container
+        container.register(OnboardingModuleProtocol.self) { resolver in
+            ClutchOnboardingModule()
+        }
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack(path: $navigation.path) {
+                navigation.build(page: .onboarding)
+                    .navigationDestination(for: Page.self) { page in
+                        navigation.build(page: page)
+                    }
+            }
+            .environmentObject(navigation)
         }
     }
 }
