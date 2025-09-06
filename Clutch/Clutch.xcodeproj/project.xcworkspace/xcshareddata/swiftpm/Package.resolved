@@ -1,13 +1,22 @@
 {
-  "originHash" : "5dfea1ead6438e67ce645aefd0ab5acab468f26822cab6380e2b6a6047b9af36",
+  "originHash" : "b5339ff29685b1568c407e35507bb702b229e5093eeb2095eb805a3504de5392",
   "pins" : [
+    {
+      "identity" : "clutchaccountmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchAccountModule",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "8d201d73b003411fd5b5df8f0476b85773d50ed5"
+      }
+    },
     {
       "identity" : "clutchcorekit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchCoreKit",
       "state" : {
-        "revision" : "afdf72fa6458b0a1d9cae443fcdc79d445b5cc1b",
-        "version" : "0.1.1"
+        "revision" : "906853cd938bfc59ff844a972491c651f221131a",
+        "version" : "0.2.0"
       }
     },
     {
@@ -15,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchModularProtocols",
       "state" : {
-        "revision" : "c79a6dfa3b61d1db4a27c2e9c66cef15160e1c03",
-        "version" : "0.0.1"
+        "revision" : "3466f7ac5d9eb9676b80dc536ee7ae67fdbcb475",
+        "version" : "0.0.2"
       }
     },
     {
@@ -24,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchNavigationKit",
       "state" : {
-        "revision" : "53c84513007adc967ce00969095dd2de96d8a8b3",
-        "version" : "0.0.1"
+        "revision" : "f96fd26dc655351dd7d6f0e613d10d73fa423f1e",
+        "version" : "0.0.2"
       }
     },
     {
@@ -34,7 +43,16 @@
       "location" : "https://github.com/engingulek/ClutchOnboardingModule",
       "state" : {
         "branch" : "master",
-        "revision" : "abc138f9a60199b39de3b3f9897020f0480ef95d"
+        "revision" : "dc21c6648722796fbf6fbdb434e2580b0b5df914"
+      }
+    },
+    {
+      "identity" : "clutchviewcontrollerablekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchViewControllerAbleKit",
+      "state" : {
+        "revision" : "6806ea3280bd6c4ad6422ddba106ae793f0e3154",
+        "version" : "0.0.2"
       }
     },
     {
@@ -44,6 +62,15 @@
       "state" : {
         "revision" : "c9305c28ff55ad6eb257fbcfd014f49be7d8f47a",
         "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
       }
     },
     {
