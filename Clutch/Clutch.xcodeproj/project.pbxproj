@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D07F9192E6361CC00008E88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D07F9172E6361CC00008E88 /* Localizable.strings */; };
 		7D43D9702E65CFE700FD0FE3 /* ClutchOnboardingModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D43D96F2E65CFE700FD0FE3 /* ClutchOnboardingModule */; };
 		7D43D9732E65D0BF00FD0FE3 /* ClutchNavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D43D9722E65D0BF00FD0FE3 /* ClutchNavigationKit */; };
+		7D8918822E6CEB4100E93F21 /* ClutchAccountModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8918812E6CEB4100E93F21 /* ClutchAccountModule */; };
 		7DEAB7642E61D76500F771ED /* DependencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEAB7632E61D76500F771ED /* DependencyKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D07F9182E6361CC00008E88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7D07F91A2E6361D300008E88 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7DEAB7542E61D60400F771ED /* Clutch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clutch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -33,6 +31,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D43D9702E65CFE700FD0FE3 /* ClutchOnboardingModule in Frameworks */,
+				7D8918822E6CEB4100E93F21 /* ClutchAccountModule in Frameworks */,
 				7D43D9732E65D0BF00FD0FE3 /* ClutchNavigationKit in Frameworks */,
 				7DEAB7642E61D76500F771ED /* DependencyKit in Frameworks */,
 			);
@@ -44,7 +43,6 @@
 		7DEAB74B2E61D60400F771ED = {
 			isa = PBXGroup;
 			children = (
-				7D07F9172E6361CC00008E88 /* Localizable.strings */,
 				7DEAB7562E61D60400F771ED /* Clutch */,
 				7DEAB7552E61D60400F771ED /* Products */,
 			);
@@ -81,6 +79,7 @@
 				7DEAB7632E61D76500F771ED /* DependencyKit */,
 				7D43D96F2E65CFE700FD0FE3 /* ClutchOnboardingModule */,
 				7D43D9722E65D0BF00FD0FE3 /* ClutchNavigationKit */,
+				7D8918812E6CEB4100E93F21 /* ClutchAccountModule */,
 			);
 			productName = Clutch;
 			productReference = 7DEAB7542E61D60400F771ED /* Clutch.app */;
@@ -115,6 +114,7 @@
 				7DEAB7622E61D76500F771ED /* XCRemoteSwiftPackageReference "HPDependencyKit" */,
 				7D43D96E2E65CFE700FD0FE3 /* XCRemoteSwiftPackageReference "ClutchOnboardingModule" */,
 				7D43D9712E65D0BF00FD0FE3 /* XCRemoteSwiftPackageReference "ClutchNavigationKit" */,
+				7D8918802E6CEB4100E93F21 /* XCRemoteSwiftPackageReference "ClutchAccountModule" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7DEAB7552E61D60400F771ED /* Products */;
@@ -131,7 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D07F9192E6361CC00008E88 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,18 +145,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7D07F9172E6361CC00008E88 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D07F9182E6361CC00008E88 /* en */,
-				7D07F91A2E6361D300008E88 /* tr */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7DEAB75D2E61D60600F771ED /* Debug */ = {
@@ -374,7 +361,15 @@
 			repositoryURL = "https://github.com/engingulek/ClutchNavigationKit";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
+				minimumVersion = 0.0.2;
+			};
+		};
+		7D8918802E6CEB4100E93F21 /* XCRemoteSwiftPackageReference "ClutchAccountModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/engingulek/ClutchAccountModule";
+			requirement = {
+				branch = develop;
+				kind = branch;
 			};
 		};
 		7DEAB7622E61D76500F771ED /* XCRemoteSwiftPackageReference "HPDependencyKit" */ = {
@@ -397,6 +392,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7D43D9712E65D0BF00FD0FE3 /* XCRemoteSwiftPackageReference "ClutchNavigationKit" */;
 			productName = ClutchNavigationKit;
+		};
+		7D8918812E6CEB4100E93F21 /* ClutchAccountModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8918802E6CEB4100E93F21 /* XCRemoteSwiftPackageReference "ClutchAccountModule" */;
+			productName = ClutchAccountModule;
 		};
 		7DEAB7632E61D76500F771ED /* DependencyKit */ = {
 			isa = XCSwiftPackageProductDependency;
