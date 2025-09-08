@@ -10,6 +10,7 @@
 		7D43D9702E65CFE700FD0FE3 /* ClutchOnboardingModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D43D96F2E65CFE700FD0FE3 /* ClutchOnboardingModule */; };
 		7D43D9732E65D0BF00FD0FE3 /* ClutchNavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D43D9722E65D0BF00FD0FE3 /* ClutchNavigationKit */; };
 		7D8918822E6CEB4100E93F21 /* ClutchAccountModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8918812E6CEB4100E93F21 /* ClutchAccountModule */; };
+		7D9803DE2E6F192F00045912 /* ClutchSelectFavTeamModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D9803DD2E6F192F00045912 /* ClutchSelectFavTeamModule */; };
 		7DEAB7642E61D76500F771ED /* DependencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEAB7632E61D76500F771ED /* DependencyKit */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9803DE2E6F192F00045912 /* ClutchSelectFavTeamModule in Frameworks */,
 				7D43D9702E65CFE700FD0FE3 /* ClutchOnboardingModule in Frameworks */,
 				7D8918822E6CEB4100E93F21 /* ClutchAccountModule in Frameworks */,
 				7D43D9732E65D0BF00FD0FE3 /* ClutchNavigationKit in Frameworks */,
@@ -80,6 +82,7 @@
 				7D43D96F2E65CFE700FD0FE3 /* ClutchOnboardingModule */,
 				7D43D9722E65D0BF00FD0FE3 /* ClutchNavigationKit */,
 				7D8918812E6CEB4100E93F21 /* ClutchAccountModule */,
+				7D9803DD2E6F192F00045912 /* ClutchSelectFavTeamModule */,
 			);
 			productName = Clutch;
 			productReference = 7DEAB7542E61D60400F771ED /* Clutch.app */;
@@ -115,6 +118,7 @@
 				7D43D96E2E65CFE700FD0FE3 /* XCRemoteSwiftPackageReference "ClutchOnboardingModule" */,
 				7D43D9712E65D0BF00FD0FE3 /* XCRemoteSwiftPackageReference "ClutchNavigationKit" */,
 				7D8918802E6CEB4100E93F21 /* XCRemoteSwiftPackageReference "ClutchAccountModule" */,
+				7D9803DC2E6F192F00045912 /* XCRemoteSwiftPackageReference "ClutchSelectFavoriteTeamModule" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7DEAB7552E61D60400F771ED /* Products */;
@@ -372,6 +376,14 @@
 				kind = branch;
 			};
 		};
+		7D9803DC2E6F192F00045912 /* XCRemoteSwiftPackageReference "ClutchSelectFavoriteTeamModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/engingulek/ClutchSelectFavoriteTeamModule";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 		7DEAB7622E61D76500F771ED /* XCRemoteSwiftPackageReference "HPDependencyKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/engingulek/HPDependencyKit";
@@ -397,6 +409,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7D8918802E6CEB4100E93F21 /* XCRemoteSwiftPackageReference "ClutchAccountModule" */;
 			productName = ClutchAccountModule;
+		};
+		7D9803DD2E6F192F00045912 /* ClutchSelectFavTeamModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D9803DC2E6F192F00045912 /* XCRemoteSwiftPackageReference "ClutchSelectFavoriteTeamModule" */;
+			productName = ClutchSelectFavTeamModule;
 		};
 		7DEAB7632E61D76500F771ED /* DependencyKit */ = {
 			isa = XCSwiftPackageProductDependency;
