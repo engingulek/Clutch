@@ -1,5 +1,5 @@
 {
-  "originHash" : "b5339ff29685b1568c407e35507bb702b229e5093eeb2095eb805a3504de5392",
+  "originHash" : "79d2837a3d381fa8b1e3f3b8fa733b2ed0d34d4b97f6b2db2685bae0538d8647",
   "pins" : [
     {
       "identity" : "clutchaccountmodule",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/engingulek/ClutchAccountModule",
       "state" : {
         "branch" : "develop",
-        "revision" : "8d201d73b003411fd5b5df8f0476b85773d50ed5"
+        "revision" : "9a7be003daa64b48c19902baa9d90b0bec971da1"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchCoreKit",
       "state" : {
-        "revision" : "906853cd938bfc59ff844a972491c651f221131a",
-        "version" : "0.2.0"
+        "revision" : "71f5613deb6132bce059fa2a471f7f21bdbee34a",
+        "version" : "0.2.2"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchModularProtocols",
       "state" : {
-        "revision" : "3466f7ac5d9eb9676b80dc536ee7ae67fdbcb475",
-        "version" : "0.0.2"
+        "revision" : "9d2e6d0884a26be3fd67f98f8bc114fcd1018a53",
+        "version" : "0.0.3"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchNavigationKit",
       "state" : {
-        "revision" : "f96fd26dc655351dd7d6f0e613d10d73fa423f1e",
-        "version" : "0.0.2"
+        "revision" : "21a6eb0fb1088208e1da6589e2efa14c6f678c49",
+        "version" : "0.0.4"
       }
     },
     {
@@ -44,6 +44,15 @@
       "state" : {
         "branch" : "master",
         "revision" : "dc21c6648722796fbf6fbdb434e2580b0b5df914"
+      }
+    },
+    {
+      "identity" : "clutchselectfavoriteteammodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchSelectFavoriteTeamModule",
+      "state" : {
+        "revision" : "67f4579a84197a2dcd15ec5cdd742d3cf0f1f4ba",
+        "version" : "0.0.1"
       }
     },
     {
@@ -62,6 +71,15 @@
       "state" : {
         "revision" : "c9305c28ff55ad6eb257fbcfd014f49be7d8f47a",
         "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "2015fda791daa72c8058619545a593bf8c1dd59f",
+        "version" : "8.5.0"
       }
     },
     {

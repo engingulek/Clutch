@@ -11,6 +11,7 @@ import ClutchNavigationKit
 import ClutchModularProtocols
 import ClutchOnboardingModule
 import ClutchAccountModule
+import ClutchSelectFavTeamModule
 
 @main
 struct ClutchApp: App {
@@ -23,6 +24,10 @@ struct ClutchApp: App {
         
         container.register(AccountModuleProtocol.self) { resolver in
             ClutchAccountModule()
+        }
+        
+        container.register(SelectFavoriteTeamModuleProtocol.self) { resolver in
+            ClutchSelectFavTeamModule()
         }
     }
     
