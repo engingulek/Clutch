@@ -13,6 +13,7 @@ import ClutchOnboardingModule
 import ClutchAccountModule
 import ClutchSelectFavTeamModule
 import ClutchManagerKits
+import FirebaseCore
 
 
 @main
@@ -43,6 +44,8 @@ struct ClutchApp: App {
             print("Page account")
             firstPage = .account
         }
+        
+        FirebaseApp.configure()
     }
     
     var body: some Scene {
