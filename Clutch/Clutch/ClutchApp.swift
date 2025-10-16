@@ -12,6 +12,7 @@ import ClutchModularProtocols
 import ClutchOnboardingModule
 import ClutchAccountModule
 import ClutchSelectFavTeamModule
+import ClutchHomeModule
 import ClutchManagerKits
 import FirebaseCore
 
@@ -19,7 +20,7 @@ import FirebaseCore
 @main
 struct ClutchApp: App {
     @StateObject private var navigation = Navigation()
-    private var pageManager : PageManagerProtocol = PageManager()
+    private var pageManager : FirstPageManagerProtocol = FirstPageManager()
     private var firstPage : Page = .onboarding
     init() {
         let container = DependencyRegister.shared.container
@@ -35,6 +36,10 @@ struct ClutchApp: App {
             ClutchSelectFavTeamModule()
         }
         
+        container.register(HomeModuleProtocol.self) { resolver in
+            ClutchHomeModule()
+        }
+        
         
         switch pageManager.currentState {
         case .onboarding:
@@ -43,6 +48,8 @@ struct ClutchApp: App {
         case .accountPage:
             print("Page account")
             firstPage = .account
+        case .homePage:
+            firstPage = .home
         }
         
         FirebaseApp.configure()

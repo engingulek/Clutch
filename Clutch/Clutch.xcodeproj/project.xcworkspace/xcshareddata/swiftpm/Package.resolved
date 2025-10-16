@@ -1,5 +1,5 @@
 {
-  "originHash" : "f22f113c603b4f7f4a702039a1bfca9a0fae2d14def22c0559fc657382106a98",
+  "originHash" : "c9f0f9f7fdeb6da9ba50dffb02de2e451976a0ec6d32d5f5535be2501268f7d1",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -34,7 +34,7 @@
       "location" : "https://github.com/engingulek/ClutchAccountModule",
       "state" : {
         "branch" : "develop",
-        "revision" : "a904105b116be3a16bee37c787b51cdfd91eb5d2"
+        "revision" : "533b6c5278f24c7adece5a09623ccee3facd99d8"
       }
     },
     {
@@ -47,12 +47,21 @@
       }
     },
     {
+      "identity" : "clutchhomemodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchHomeModule",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "c1116d3d195e72613f800107d69af069f1efc9eb"
+      }
+    },
+    {
       "identity" : "clutchmanagerkits",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchManagerKits",
       "state" : {
         "branch" : "develop",
-        "revision" : "d78f4577b6f5a818380dca85db656b4e2d305933"
+        "revision" : "b3aed9ead19aa474e2316725bc54707de42839fa"
       }
     },
     {
@@ -79,7 +88,7 @@
       "location" : "https://github.com/engingulek/ClutchOnboardingModule",
       "state" : {
         "branch" : "master",
-        "revision" : "a4b1c07d825256736afa733282e357cf3a4f49ee"
+        "revision" : "decc2b24cbb05a8714b9fa91e6258ad6f9bddd54"
       }
     },
     {
