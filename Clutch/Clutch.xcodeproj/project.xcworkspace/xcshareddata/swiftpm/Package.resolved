@@ -1,5 +1,5 @@
 {
-  "originHash" : "c9f0f9f7fdeb6da9ba50dffb02de2e451976a0ec6d32d5f5535be2501268f7d1",
+  "originHash" : "666f39ca09ef9b29ebce6db935d407dee26560c4aa4cfb31cca33488c955cb5a",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -47,6 +47,15 @@
       }
     },
     {
+      "identity" : "clutchfavmatchlistmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchFavMatchListModule",
+      "state" : {
+        "branch" : "0.0.3",
+        "revision" : "a44a608f84e3dd0e108c53e25d5bf7d841b532f8"
+      }
+    },
+    {
       "identity" : "clutchhomemodule",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchHomeModule",
@@ -69,8 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchModularProtocols",
       "state" : {
-        "revision" : "8a447c7bd2b5ee969bcb8192a880a4febcbe2de9",
-        "version" : "0.0.5"
+        "branch" : "develop",
+        "revision" : "8a447c7bd2b5ee969bcb8192a880a4febcbe2de9"
       }
     },
     {
@@ -79,7 +88,7 @@
       "location" : "https://github.com/engingulek/ClutchNavigationKit",
       "state" : {
         "branch" : "develop",
-        "revision" : "d98a617990e287e410e2ebfc4be7b0a6ebaaf408"
+        "revision" : "ce12a3ddaead4eccbe6793d79b8544245ef688da"
       }
     },
     {
@@ -98,6 +107,24 @@
       "state" : {
         "revision" : "67f4579a84197a2dcd15ec5cdd742d3cf0f1f4ba",
         "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "clutchstandingsmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchStandingsModule",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "22d426e24045922d5f26f09284ffc4af4ab9228d"
+      }
+    },
+    {
+      "identity" : "clutchtabviewmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchTabViewModule",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "1fca4a6fc154e6eec163c093e2f96a99f59bb2e2"
       }
     },
     {

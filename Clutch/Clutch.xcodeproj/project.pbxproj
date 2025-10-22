@@ -10,6 +10,7 @@
 		7D43D9702E65CFE700FD0FE3 /* ClutchOnboardingModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D43D96F2E65CFE700FD0FE3 /* ClutchOnboardingModule */; };
 		7D43D9732E65D0BF00FD0FE3 /* ClutchNavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D43D9722E65D0BF00FD0FE3 /* ClutchNavigationKit */; };
 		7D5185912E9D3AE600DBEF74 /* ClutchManagerKits in Frameworks */ = {isa = PBXBuildFile; productRef = 7D5185902E9D3AE600DBEF74 /* ClutchManagerKits */; };
+		7D5C96132EA9060100B3694D /* ClutchTabViewModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D5C96122EA9060100B3694D /* ClutchTabViewModule */; };
 		7D8918822E6CEB4100E93F21 /* ClutchAccountModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8918812E6CEB4100E93F21 /* ClutchAccountModule */; };
 		7D97CCC62EA16A3F000D0F44 /* ClutchHomeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D97CCC52EA16A3F000D0F44 /* ClutchHomeModule */; };
 		7D9803DE2E6F192F00045912 /* ClutchSelectFavTeamModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7D9803DD2E6F192F00045912 /* ClutchSelectFavTeamModule */; };
@@ -52,6 +53,7 @@
 				7D5185912E9D3AE600DBEF74 /* ClutchManagerKits in Frameworks */,
 				7D8918822E6CEB4100E93F21 /* ClutchAccountModule in Frameworks */,
 				7D43D9732E65D0BF00FD0FE3 /* ClutchNavigationKit in Frameworks */,
+				7D5C96132EA9060100B3694D /* ClutchTabViewModule in Frameworks */,
 				7DEAB7642E61D76500F771ED /* DependencyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +104,7 @@
 				7D9803DD2E6F192F00045912 /* ClutchSelectFavTeamModule */,
 				7D5185902E9D3AE600DBEF74 /* ClutchManagerKits */,
 				7D97CCC52EA16A3F000D0F44 /* ClutchHomeModule */,
+				7D5C96122EA9060100B3694D /* ClutchTabViewModule */,
 			);
 			productName = Clutch;
 			productReference = 7DEAB7542E61D60400F771ED /* Clutch.app */;
@@ -140,6 +143,7 @@
 				7D9803DC2E6F192F00045912 /* XCRemoteSwiftPackageReference "ClutchSelectFavoriteTeamModule" */,
 				7D51858F2E9D3AE500DBEF74 /* XCRemoteSwiftPackageReference "ClutchManagerKits" */,
 				7D97CCC42EA16A3F000D0F44 /* XCRemoteSwiftPackageReference "ClutchHomeModule" */,
+				7D5C96112EA9060100B3694D /* XCRemoteSwiftPackageReference "ClutchTabViewModule" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7DEAB7552E61D60400F771ED /* Products */;
@@ -309,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +343,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +405,14 @@
 				kind = branch;
 			};
 		};
+		7D5C96112EA9060100B3694D /* XCRemoteSwiftPackageReference "ClutchTabViewModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/engingulek/ClutchTabViewModule";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 		7D8918802E6CEB4100E93F21 /* XCRemoteSwiftPackageReference "ClutchAccountModule" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/engingulek/ClutchAccountModule";
@@ -448,6 +462,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7D51858F2E9D3AE500DBEF74 /* XCRemoteSwiftPackageReference "ClutchManagerKits" */;
 			productName = ClutchManagerKits;
+		};
+		7D5C96122EA9060100B3694D /* ClutchTabViewModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D5C96112EA9060100B3694D /* XCRemoteSwiftPackageReference "ClutchTabViewModule" */;
+			productName = ClutchTabViewModule;
 		};
 		7D8918812E6CEB4100E93F21 /* ClutchAccountModule */ = {
 			isa = XCSwiftPackageProductDependency;

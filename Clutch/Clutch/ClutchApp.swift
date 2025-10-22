@@ -14,6 +14,7 @@ import ClutchAccountModule
 import ClutchSelectFavTeamModule
 import ClutchHomeModule
 import ClutchManagerKits
+import ClutchTabViewModule
 import FirebaseCore
 
 
@@ -40,6 +41,12 @@ struct ClutchApp: App {
             ClutchHomeModule()
         }
         
+        container.register(TabViewModuleProtocol.self) { resolver in
+            ClutchTabViewModule()
+        }
+        
+     
+        
         
         switch pageManager.currentState {
         case .onboarding:
@@ -49,7 +56,7 @@ struct ClutchApp: App {
             print("Page account")
             firstPage = .account
         case .homePage:
-            firstPage = .home
+            firstPage = .tabView
         }
         
         FirebaseApp.configure()
